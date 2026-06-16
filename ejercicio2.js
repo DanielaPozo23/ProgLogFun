@@ -12,7 +12,6 @@ function SonHermanos(persona1, persona2) {
         )
     );
 }
-
 function EsAbuelo(abuelo, nieto) {
     return hechos.some(humano1 =>
         hechos.some(humano2 =>
