@@ -1,9 +1,4 @@
-const cursos=[
-    {titulo: 'React Avanzado', categoria: 'Desarrollo', esGratis: false, tieneCertificado: true },
-{ titulo: 'Introducción a UX/UI', categoria: 'Diseño', esGratis: true, tieneCertificado: false },
-{ titulo: 'Node.js y MongoDB', categoria: 'Desarrollo', esGratis: true, tieneCertificado: true },
-{ titulo: 'Figma para Principiantes', categoria: 'Diseño', esGratis: false, tieneCertificado: false}
-]
+
 
 
 const cursos = [
