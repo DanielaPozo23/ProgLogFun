@@ -26,7 +26,7 @@ function procesarPalabra(frase) {
   const resultado = [];
   for (let palabra of palabras) {
     console.log(`procesado completo: ${palabra}`);
-    resultado.push(palabra.toUpperCase())
+    resultado.push(palabra.toUpperCase());
   }
   return resultado;
 }
@@ -35,11 +35,11 @@ const palabrasEscritas = procesarPalabra("Programacion con JS");
 console.log("Resultado:", palabrasEscritas[0]);
 
 function* procesarDatos(frase) {
-    const palabras = frase.split(" ");
-    for (let palabra of palabras) {
-        console.log(`Procesado de datos ${palabra}`);
-        yield palabra.toUpperCase();
-    }
+  const palabras = frase.split(" ");
+  for (let palabra of palabras) {
+    console.log(`Procesado de datos ${palabra}`);
+    yield palabra.toUpperCase();
+  }
 }
 
 const textoLeido = procesarDatos("Programacion con JS");
